@@ -1,0 +1,47 @@
+{
+   "family": "IB5-taskdef-jso",
+   "networkMode": "awsvpc",
+   "taskRoleArn": "arn:aws:iam::464598779341:role/ecsTaskExecutionRole",
+   "containerDefinitions": [
+      {
+         "essential": true,
+         "image": "464598779341.dkr.ecr.ap-south-1.amazonaws.com/talendimagenew:latest",
+         "memoryReservation": 200,
+         "dependsOn": [
+        {
+          "containerName": "talendimage2",
+          "condition": "SUCCESS"
+        }
+        ],
+        "logConfiguration": {
+            "logDriver": "awslogs",
+            "options": {
+               "awslogs-group" : "/ecs/IB5-talend-taskdefinition",
+               "awslogs-region": "ap-south-1",
+               "awslogs-stream-prefix": "ecs"
+            }
+         },
+         "name": "talendimage1"
+      },
+	  {
+         "essential": false,
+         "image": "464598779341.dkr.ecr.ap-south-1.amazonaws.com/talendimagenew:latest",
+         "memoryReservation": 200,
+        "logConfiguration": {
+            "logDriver": "awslogs",
+            "options": {
+               "awslogs-group" : "/ecs/IB5-talend-taskdefinition",
+               "awslogs-region": "ap-south-1",
+               "awslogs-stream-prefix": "ecs"
+            }
+         },
+         "name": "talendimage2"
+      }
+   ],
+   "executionRoleArn": "arn:aws:iam::464598779341:role/ecsTaskExecutionRole",
+   "requiresCompatibilities": [
+       "FARGATE"
+    ],  
+   "cpu": "256",
+   "memory": "512"
+}
