@@ -22,7 +22,7 @@ RUN apt-get update -y && \
     apt-get install -y unzip && \
     unzip job_sample_job_cicd_test_in_jenkins_0_2.zip && \
     rm -rf job_sample_job_cicd_test_in_jenkins_0_2.zip && \
-    chmod +x TestSimple/TestSimple_run.sh
+    chmod +x job_sample_job_CICD_test_In_Jenkins/job_sample_job_CICD_test_In_Jenkins_run.sh
 
 VOLUME /data
 
