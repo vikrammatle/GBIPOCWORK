@@ -1,0 +1,29 @@
+FROM openjdk:8-jre-slim
+
+ARG talend_job=testsimple
+ARG talend_version=0_1
+
+LABEL maintainer="mgainhao@talend.com" \
+    talend.job=${talend_job} \
+    talend.version=${talend_version}
+
+ENV TALEND_JOB ${talend_job}
+ENV TALEND_VERSION ${talend_version}
+ENV ARGS ""
+
+
+WORKDIR /opt/talend
+
+
+COPY testsimple_0_1.zip .
+RUN pwd
+### Install Talend Job
+RUN apt-get update -y && \
+    apt-get install -y unzip && \
+    unzip testsimple_0_1.zip && \
+    rm -rf testsimple_0_1.zip && \
+    chmod +x TestSimple/TestSimple_run.sh
+
+VOLUME /data
+
+CMD ["/bin/sh","-c","TestSimple/TestSimple_run.sh"]
