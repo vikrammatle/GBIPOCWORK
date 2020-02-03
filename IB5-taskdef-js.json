@@ -1,11 +1,11 @@
 {
-   "family": "IB5-taskdef-jso",
+   "family": "IB5-taskdef-rahul",
    "networkMode": "awsvpc",
    "taskRoleArn": "arn:aws:iam::464598779341:role/ecsTaskExecutionRole",
    "containerDefinitions": [
       {
          "essential": true,
-         "image": "464598779341.dkr.ecr.ap-south-1.amazonaws.com/talendimagenew:latest",
+         "image": "464598779341.dkr.ecr.ap-south-1.amazonaws.com/talendrahulpoc:latest",
          "memoryReservation": 200,
          "dependsOn": [
         {
