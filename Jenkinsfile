@@ -65,6 +65,14 @@ node {
                     //sh "/var/lib/jenkins/bin/aws ecr list-images --region $REGION --repository-name $imageName --filter tagStatus=UNTAGGED --query 'imageIds[*]' --output text | while read imageId; do /var/lib/jenkins/bin/aws ecr batch-delete-image --region $REGION --repository-name $imageName --image-ids imageDigest=\$imageId; done"
                 }
         }
+     stage("Deploy to DEV") {
+            script {
+                sh "eval \$(aws ecr get-login --region ap-south-1 --no-include-email)"
+                sh "/usr/bin/aws --version"
+                sh "/usr/bin/aws ecs register-task-definition --cli-input-json file://IB5-taskdef-js.json" 
+               // sh "/usr/bin/aws ecs run-task --cluster IB5-Talendcicd-cluster-demo --count 1 --launch-type FARGATE --network-configuration awsvpcConfiguration={subnets=[subnet-015ea77f6d4584ac7],securityGroups=[sg-036076fbc4e9ed4b1],assignPublicIp=ENABLED} --task-definition fargate-task-definition"
+            }
+        }
   
     } catch (err) {
         currentBuild.result = 'FAILED'
