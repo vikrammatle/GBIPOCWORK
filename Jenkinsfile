@@ -5,7 +5,7 @@ env.VERSION = '0.2'
 env.GIT_URL = 'https://github.com/vikrammatle/GBIPOCWORK.git'
 env.TYPE = "" // if big data = _mr n
 env.DOCKERHUB_USER = "talendinc"
-env.imageName= 'talendimagenew'
+env.imageName= 'talendrahulpoc'
 env.registry='http://464598779341.dkr.ecr.ap-south-1.amazonaws.com'
 
 
@@ -45,6 +45,25 @@ node {
                         sh "mvn -s /opt/settings.xml -f $PROJECT_GIT_NAME/poms/pom.xml clean -Pcloud-publisher deploy"
                     
                         }  
+        }
+     stage ('building the docker image') {
+               script{
+                    sh "pwd"
+                    sh "ls -l"
+                    dir("./GBI_POC_WORK") {
+                    docker.build(imageName, "-f DockerFile .")
+                    }
+            }
+        }
+      	stage("Push to Registry") {
+                script {
+                    sh "eval \$(aws ecr get-login --region ap-south-1 --no-include-email)"
+                    sh "aws ecr describe-repositories --region ap-south-1 --repository-names $imageName || aws ecr create-repository --region ap-south-1 --repository-name $imageName"
+                    docker.withRegistry(registry) {
+                        docker.image(imageName).push('latest')
+                    }
+                    //sh "/var/lib/jenkins/bin/aws ecr list-images --region $REGION --repository-name $imageName --filter tagStatus=UNTAGGED --query 'imageIds[*]' --output text | while read imageId; do /var/lib/jenkins/bin/aws ecr batch-delete-image --region $REGION --repository-name $imageName --image-ids imageDigest=\$imageId; done"
+                }
         }
   
     } catch (err) {
