@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_E67QUeX2Eem_q4rOpYCROw" label="GBI_POC_WORK" description="" language="java" technicalLabel="GBI_POC_WORK" local="true" author="_E67QUuX2Eem_q4rOpYCROw" productVersion="Talend Cloud Real-Time Big Data Platform-7.2.1.20190909_1035-patch" itemsRelationVersion="1.3">
+    <migrationTask xmi:id="_FZmJUOX2Eem_q4rOpYCROw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_E67QUuX2Eem_q4rOpYCROw" login="rohit.londhe@nissanmotor.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+  <TalendProperties:User xmi:id="_uyZSgP7ZEemtubjxXKAK4w" login="rohit.londhe@mail.nissan.co.jp" password="D41D8CD98F00B204E9800998ECF8427E" authenticationInfo=":"/>
+  <TalendProperties:User xmi:id="_8VXuUENAEeqaTq1Rq269Aw" login="mansoorahmed.shaik@mail.nissan.co.jp" password="D41D8CD98F00B204E9800998ECF8427E"/>
+  <TalendProperties:User xmi:id="_ATMoMEQlEeqFrfQncY5Y3A" login="jobbuilder@talend.com"/>
+</xmi:XMI>

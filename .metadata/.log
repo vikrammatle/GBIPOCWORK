@@ -1,0 +1,467 @@
+!SESSION 2020-02-03 07:33:57.871 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_232
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_7553311608698939352.txt
+Command-line arguments:  -application org.talend.commandline.CommandLine -data /root/temp scriptFile script_command_7553311608698939352.txt
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:34:04.682
+!MESSAGE 2020-02-03 07:34:04,677 INFO  org.talend.platform.logging.Activator  - 
+!!------------------------------------------------------------------------!!
+!!                                                                        !!
+!!                                 TALEND                                 !!
+!!   Starting Talend's platform log system.VERSION= 7.2.1.20190610_1534   !!
+!!                                                                        !!
+!!------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:34:10.615
+!MESSAGE Starting up Command Line Application
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:34:24.811
+!MESSAGE 2020-02-03 07:34:24,786 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:34:27.517
+!MESSAGE initLocal
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:34:27.518
+!MESSAGE COMPLETED at Mon Feb 03 07:34:27 GMT 2020
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:34:35.717
+!MESSAGE createProject
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:34:35.719
+!MESSAGE COMPLETED at Mon Feb 03 07:34:35 GMT 2020
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:34:35.805
+!MESSAGE logoffProject
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:34:35.808
+!MESSAGE COMPLETED at Mon Feb 03 07:34:35 GMT 2020
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:34:35.940
+!MESSAGE Shutting down Command Line Application
+!SESSION 2020-02-03 07:34:38.955 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_232
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_7553311608698939352.txt
+Command-line arguments:  -application org.talend.commandline.CommandLine -data /root/temp scriptFile script_command_7553311608698939352.txt
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:34:42.435
+!MESSAGE 2020-02-03 07:34:42,425 INFO  org.talend.platform.logging.Activator  - 
+!!------------------------------------------------------------------------!!
+!!                                                                        !!
+!!                                 TALEND                                 !!
+!!   Starting Talend's platform log system.VERSION= 7.2.1.20190610_1534   !!
+!!                                                                        !!
+!!------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:34:43.118
+!MESSAGE Starting up Command Line Application
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:34:47.553
+!MESSAGE 2020-02-03 07:34:47,552 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:34:48.891
+!MESSAGE initLocal
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:34:48.892
+!MESSAGE COMPLETED at Mon Feb 03 07:34:48 GMT 2020
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:35:11.602
+!MESSAGE 2020-02-03 07:35:11,515 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:35:36.465
+!MESSAGE 2020-02-03 07:35:36,464 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /GBI_POC_WORK_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:35:36.468
+!MESSAGE 2020-02-03 07:35:36,468 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /GBI_POC_WORK_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:35:36.474
+!MESSAGE 2020-02-03 07:35:36,473 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /GBI_POC_WORK_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:35:36.475
+!MESSAGE 2020-02-03 07:35:36,475 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /GBI_POC_WORK_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:35:50.616
+!MESSAGE 2020-02-03 07:35:50,615 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /root/temp/GBI_POC_WORK/poms/code/routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:35:50.618
+!MESSAGE 2020-02-03 07:35:50,618 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s /root/.installation/.commandline/configuration/maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:35:59.718
+!MESSAGE 2020-02-03 07:35:59,717 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - jobbuilder@talend.com logged on GBI_POC_WORK
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.142
+!MESSAGE 2020-02-03 07:36:02,142 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-CLIENT-LIB-2_10-0_8_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.144
+!MESSAGE 2020-02-03 07:36:02,143 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-CLIENT-LIB-2_10-0_9_0_1
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.145
+!MESSAGE 2020-02-03 07:36:02,144 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-CLIENT-LIB-2_10-0_10_0_1
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.146
+!MESSAGE 2020-02-03 07:36:02,145 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-CLIENT-LIB-2_11-1_1_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.176
+!MESSAGE 2020-02-03 07:36:02,176 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_10-0_9_0_1
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.177
+!MESSAGE 2020-02-03 07:36:02,177 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_10-0_10_0_1
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.178
+!MESSAGE 2020-02-03 07:36:02,178 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_11-1_1_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.209
+!MESSAGE 2020-02-03 07:36:02,209 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_10-0_9_0_1
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.210
+!MESSAGE 2020-02-03 07:36:02,210 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_10-0_10_0_1
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.211
+!MESSAGE 2020-02-03 07:36:02,211 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_11-1_1_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.857
+!MESSAGE 2020-02-03 07:36:02,857 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_10-0_9_0_1
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.858
+!MESSAGE 2020-02-03 07:36:02,858 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_10-0_10_0_1
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.859
+!MESSAGE 2020-02-03 07:36:02,859 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_11-1_1_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.863
+!MESSAGE 2020-02-03 07:36:02,862 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.864
+!MESSAGE 2020-02-03 07:36:02,863 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_BATCH_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.865
+!MESSAGE 2020-02-03 07:36:02,864 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.866
+!MESSAGE 2020-02-03 07:36:02,865 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_BATCH_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.867
+!MESSAGE 2020-02-03 07:36:02,866 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.868
+!MESSAGE 2020-02-03 07:36:02,868 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_BATCH_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.897
+!MESSAGE 2020-02-03 07:36:02,897 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-6_4
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.899
+!MESSAGE 2020-02-03 07:36:02,899 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-XPACK-LIB-6_4
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.900
+!MESSAGE 2020-02-03 07:36:02,900 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-5_6
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.902
+!MESSAGE 2020-02-03 07:36:02,901 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-XPACK-LIB-5_6
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.904
+!MESSAGE 2020-02-03 07:36:02,904 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-2_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.905
+!MESSAGE 2020-02-03 07:36:02,905 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-SHIELD-LIB-2_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.907
+!MESSAGE 2020-02-03 07:36:02,906 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-6_4-SPARK-1_6
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.908
+!MESSAGE 2020-02-03 07:36:02,907 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.909
+!MESSAGE 2020-02-03 07:36:02,908 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_STREAMING_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.910
+!MESSAGE 2020-02-03 07:36:02,909 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.911
+!MESSAGE 2020-02-03 07:36:02,911 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_STREAMING_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.912
+!MESSAGE 2020-02-03 07:36:02,912 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.913
+!MESSAGE 2020-02-03 07:36:02,913 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_STREAMING_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.914
+!MESSAGE 2020-02-03 07:36:02,914 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.915
+!MESSAGE 2020-02-03 07:36:02,915 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_BATCH_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.917
+!MESSAGE 2020-02-03 07:36:02,916 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.918
+!MESSAGE 2020-02-03 07:36:02,917 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_BATCH_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.919
+!MESSAGE 2020-02-03 07:36:02,918 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.920
+!MESSAGE 2020-02-03 07:36:02,919 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_BATCH_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.963
+!MESSAGE 2020-02-03 07:36:02,963 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK-STREAMING-KAFKA-LIB-HDP_2_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.966
+!MESSAGE 2020-02-03 07:36:02,965 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_10-0_9_0_1
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.967
+!MESSAGE 2020-02-03 07:36:02,966 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_10-0_10_0_1
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.968
+!MESSAGE 2020-02-03 07:36:02,967 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: KAFKA-LIB-2_11-1_1_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.970
+!MESSAGE 2020-02-03 07:36:02,970 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-6_4
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.971
+!MESSAGE 2020-02-03 07:36:02,971 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-XPACK-LIB-6_4
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.972
+!MESSAGE 2020-02-03 07:36:02,972 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-5_6
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.973
+!MESSAGE 2020-02-03 07:36:02,973 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-XPACK-LIB-5_6
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.974
+!MESSAGE 2020-02-03 07:36:02,974 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-2_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.976
+!MESSAGE 2020-02-03 07:36:02,975 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-SHIELD-LIB-2_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.977
+!MESSAGE 2020-02-03 07:36:02,976 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-6_4-SPARK-1_6
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.978
+!MESSAGE 2020-02-03 07:36:02,977 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.979
+!MESSAGE 2020-02-03 07:36:02,979 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_STREAMING_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.980
+!MESSAGE 2020-02-03 07:36:02,980 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.981
+!MESSAGE 2020-02-03 07:36:02,981 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_STREAMING_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.982
+!MESSAGE 2020-02-03 07:36:02,982 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.983
+!MESSAGE 2020-02-03 07:36:02,983 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.984
+!MESSAGE 2020-02-03 07:36:02,983 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_BATCH_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.985
+!MESSAGE 2020-02-03 07:36:02,985 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.986
+!MESSAGE 2020-02-03 07:36:02,986 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_BATCH_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.987
+!MESSAGE 2020-02-03 07:36:02,987 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.988
+!MESSAGE 2020-02-03 07:36:02,987 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_BATCH_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.988
+!MESSAGE 2020-02-03 07:36:02,988 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-6_4
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.989
+!MESSAGE 2020-02-03 07:36:02,989 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-XPACK-LIB-6_4
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.990
+!MESSAGE 2020-02-03 07:36:02,990 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-5_6
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.991
+!MESSAGE 2020-02-03 07:36:02,990 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-XPACK-LIB-5_6
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.992
+!MESSAGE 2020-02-03 07:36:02,991 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-2_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.993
+!MESSAGE 2020-02-03 07:36:02,993 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-SHIELD-LIB-2_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.994
+!MESSAGE 2020-02-03 07:36:02,993 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: ELASTICSEARCH-LIB-6_4-SPARK-1_6
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.995
+!MESSAGE 2020-02-03 07:36:02,994 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.996
+!MESSAGE 2020-02-03 07:36:02,995 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH6_STREAMING_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.997
+!MESSAGE 2020-02-03 07:36:02,996 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.998
+!MESSAGE 2020-02-03 07:36:02,997 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_STREAMING_LIBRARIES_1_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-02-03 07:36:02.999
+!MESSAGE 2020-02-03 07:36:02,999 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: SPARK_ELASTICSEARCH5_LIBRARIES_2_0
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:38:49.787
+!MESSAGE logonProject
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:38:49.788
+!MESSAGE COMPLETED at Mon Feb 03 07:38:49 GMT 2020
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:38:53.432
+!MESSAGE 2020-02-03 07:38:53,431 INFO  com.oaklandsw.transform.infrequent  - Starting runtime: Data Mapper (7) Version: 7.2.1.20190613_0846 at: file:/root/temp (941473466) started: 20200203_073853.269
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:38:54.173
+!MESSAGE 2020-02-03 07:38:54,173 INFO  com.oaklandsw.transform.infrequent  - Loading data plugin: com.oaklandsw.data.transform.builtin
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:38:54.259
+!MESSAGE 2020-02-03 07:38:54,259 INFO  com.oaklandsw.transform.infrequent  - Loading data plugin: com.oaklandsw.data.transform.examples
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:39:10.579
+!MESSAGE buildItemSources
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:39:10.580
+!MESSAGE COMPLETED at Mon Feb 03 07:39:10 GMT 2020
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:39:11.482
+!MESSAGE buildItemSources
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:39:11.484
+!MESSAGE COMPLETED at Mon Feb 03 07:39:11 GMT 2020
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:39:13.707
+!MESSAGE 2020-02-03 07:39:13,682 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/GBI_POC_WORK_ROUTINES: org.example.gbi_poc_work.code:routines:7.2.1 with classifier  to /GBI_POC_WORK_ROUTINES/target/classes
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:39:14.607
+!MESSAGE buildItemSources
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:39:14.608
+!MESSAGE COMPLETED at Mon Feb 03 07:39:14 GMT 2020
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-02-03 07:39:17.047
+!MESSAGE 2020-02-03 07:39:17,047 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/GBI_POC_WORK_ROUTINES: org.example.gbi_poc_work.code:routines:7.2.1 with classifier  to /GBI_POC_WORK_ROUTINES/target/classes
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:39:17.064
+!MESSAGE buildItemSources
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:39:17.065
+!MESSAGE COMPLETED at Mon Feb 03 07:39:17 GMT 2020
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:39:17.711
+!MESSAGE logoffProject
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:39:17.712
+!MESSAGE COMPLETED at Mon Feb 03 07:39:17 GMT 2020
+
+
+!ENTRY org.talend.commandline 1 0 2020-02-03 07:39:17.954
+!MESSAGE Shutting down Command Line Application
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-02-03 07:39:20.932
+!MESSAGE The workspace will exit with unsaved changes in this session.
