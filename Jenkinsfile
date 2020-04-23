@@ -56,7 +56,7 @@ node {
                     }
             }
         }
-     /*
+     
       	stage("Push to Registry") {
                 script {
                     sh "eval \$(aws ecr get-login --region ap-south-1 --no-include-email)"
@@ -67,6 +67,7 @@ node {
                     //sh "/var/lib/jenkins/bin/aws ecr list-images --region $REGION --repository-name $imageName --filter tagStatus=UNTAGGED --query 'imageIds[*]' --output text | while read imageId; do /var/lib/jenkins/bin/aws ecr batch-delete-image --region $REGION --repository-name $imageName --image-ids imageDigest=\$imageId; done"
                 }
         }
+     /*
      stage("Deploy to DEV") {
             script {
                 sh "eval \$(aws ecr get-login --region ap-south-1 --no-include-email)"
