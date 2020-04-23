@@ -46,7 +46,7 @@ node {
                     
                         }  
         }
-     /*
+     
      stage ('building the docker image') {
                script{
                     sh "pwd"
@@ -56,6 +56,7 @@ node {
                     }
             }
         }
+     /*
       	stage("Push to Registry") {
                 script {
                     sh "eval \$(aws ecr get-login --region ap-south-1 --no-include-email)"
