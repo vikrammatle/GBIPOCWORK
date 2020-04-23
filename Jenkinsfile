@@ -6,7 +6,7 @@ env.GIT_URL = 'https://github.com/vikrammatle/GBIPOCWORK.git'
 env.TYPE = "" // if big data = _mr n
 env.DOCKERHUB_USER = "talendinc"
 env.imageName= 'talendrahulpoc'
-env.registry='http://464598779341.dkr.ecr.ap-south-1.amazonaws.com'
+env.registry='506623706255.dkr.ecr.ap-south-1.amazonaws.com'
 
 
 // Credentials IDs (Manage Jenkins => Credentials)
