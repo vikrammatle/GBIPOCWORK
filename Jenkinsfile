@@ -46,6 +46,7 @@ node {
                     
                         }  
         }
+     /*
      stage ('building the docker image') {
                script{
                     sh "pwd"
@@ -73,7 +74,7 @@ node {
                // sh "/usr/bin/aws ecs run-task --cluster IB5-Talendcicd-cluster-demo --count 1 --launch-type FARGATE --network-configuration awsvpcConfiguration={subnets=[subnet-015ea77f6d4584ac7],securityGroups=[sg-036076fbc4e9ed4b1],assignPublicIp=ENABLED} --task-definition fargate-task-definition"
             }
         }
-  
+  */
     } catch (err) {
         currentBuild.result = 'FAILED'
         throw err
