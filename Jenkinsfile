@@ -61,8 +61,10 @@ node {
                 script {
                     sh "eval \$(aws ecr get-login --region ap-south-1 --no-include-email)"
                     sh "aws ecr describe-repositories --region ap-south-1 --repository-names $imageName || aws ecr create-repository --region ap-south-1 --repository-name $imageName"
-                    docker.withRegistry(registry) {
-                    //docker.withRegistry('https://506623706255.dkr.ecr.ap-south-1.amazonaws.com', 'ecr') {
+                    //docker.withRegistry(registry) {
+                    sh 'rm  ~/.dockercfg || true'
+                    sh 'rm ~/.docker/config.json || true'
+                    docker.withRegistry('https://506623706255.dkr.ecr.ap-south-1.amazonaws.com', 'ecr') {
                         docker.image(imageName).push('latest')
                     }
                     //sh "/var/lib/jenkins/bin/aws ecr list-images --region $REGION --repository-name $imageName --filter tagStatus=UNTAGGED --query 'imageIds[*]' --output text | while read imageId; do /var/lib/jenkins/bin/aws ecr batch-delete-image --region $REGION --repository-name $imageName --image-ids imageDigest=\$imageId; done"
