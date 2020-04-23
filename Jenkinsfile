@@ -38,7 +38,7 @@ node {
                             // Maven settings.xml file defined with the Jenkins Config File Provider Plugin
                             // Maven settings and global settings can also be defined in Jenkins Global Tools Configuration
                            // mavenSettingsConfig: 'maven-file',
-                            mavenOpts: '-Dupdatesite.path=http://13.232.107.133:8082/P2/ -Dlicense.path=/opt/remote.license -Dgeneration.type=local  -Dservice.url=https://tmc.ap.cloud.talend.com/inventory/ -Dcloud.publisher.environment=TALEND_CICD_TEST -Dcloud.publisher.workspace=TALENDCICDTEST -Dservice.username=mansoorahmed.shaik@mail.nissan.co.jp -Dservice.password=chaitu@5B7 -Dcloud.publisher.screenshot=true -DaltDeploymentRepository=id::default::http://admin:admin123@35.154.250.197:8081/repository/Releases/ -Xms1024m -Xmx3096m') 
+                            mavenOpts: '-Dupdatesite.path=http://3.6.86.102:8082/P2/ -Dlicense.path=/opt/remote.license -Dgeneration.type=local  -Dservice.url=https://tmc.ap.cloud.talend.com/inventory/ -Dcloud.publisher.environment=TALEND_CICD_TEST -Dcloud.publisher.workspace=TALENDCICDTEST -Dservice.username=mansoorahmed.shaik@mail.nissan.co.jp -Dservice.password=chaitu@5B7 -Dcloud.publisher.screenshot=true -DaltDeploymentRepository=id::default::http://admin:admin123@35.154.250.197:8081/repository/Releases/ -Xms1024m -Xmx3096m') 
                             {
                     
                         // Run the maven test build
